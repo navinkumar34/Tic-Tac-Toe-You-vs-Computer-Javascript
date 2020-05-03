@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
+        <title> Tic Tac Toe : You vs Computer</title>
+        <link rel="stylesheet" href="tic%20tac%20toe.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1> Tic Tac Toe</h1>
+            <div class="row border-b">
+                <div class="col border-r"></div>
+                <div class="col border-r"></div>
+                <div class="col "></div>
+            </div>
+            <div class="row border-b">
+                <div class="col border-r"></div>
+                <div class="col border-r"></div>
+                <div class="col "></div>
+            </div>
+            <div class="row">
+                <div class="col border-r"></div>
+                <div class="col border-r"></div>
+                <div class="col "></div>
+            </div>
+            <div class = "winning-message" winning-message-div>
+                <div data-winning-message-text></div>
+                <input type="button" id="restart" value="Restart" onclick="restart()">
+            </div>
+            
+        </div>
+        
+        <script src="tic%20tac%20toe.js"></script>
+    </body>
+    
+</html>
